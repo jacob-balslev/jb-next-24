@@ -672,14 +672,14 @@ padding-right: 0px;
   transition: opacity .2s 0s, visibility 0s 0s;
 }
 .cd-top {
-  right: 22px;
+  right: 30px;
   bottom: 25px;
   font-size: 15px;
   font-weight: 600;
   align-items: center;
 }
 .cd-bottom {
-  right: 22px;
+  right: 30px;
   top: 25px;
   font-size: 15px;
   font-weight: 600;
@@ -913,21 +913,6 @@ h3.project-title {
   margin-top: 1rem;
 }
 }
-
-.cd-top:after {
-  content: '';
-  background: transparent url('../components/Icons/arrow-fill-down.svg') no-repeat center 50%;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-}
-.cd-bottom:after {
-  content: '';
-  background: transparent url('../components/Icons/arrow-fill-up.svg') no-repeat center 50%;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-}
 .cd-top:hover{
   cursor: pointer;
   display: flex;
@@ -939,12 +924,6 @@ h3.project-title {
   display: flex;
   line-height: inherit;
   color: #34C9EE;
-}
-.cd-bottom:hover:after {
-  background: transparent url('../components/Icons/arrow-fill-up-hover.svg') no-repeat center 50%;
-}
-.cd-top:hover:after {
-  background: transparent url('../components/Icons/arrow-fill-down-hover.svg') no-repeat center 50%;
 }
 
 /* Tablet to Laptop */
