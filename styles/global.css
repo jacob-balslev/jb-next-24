@@ -916,14 +916,14 @@ h3.project-title {
 
 .cd-top:after {
   content: '';
-  background: transparent url('../components/Icons/arrow-fill-down.svg') no-repeat center 50%;
+  background: transparent url('/components/Icons/arrow-fill-down.svg') no-repeat center 50%;
   width: 18px;
   height: 18px;
   display: inline-block;
 }
 .cd-bottom:after {
   content: '';
-  background: transparent url('components/Icons/arrow-fill-up.svg') no-repeat center 50%;
+  background: transparent url('/components/Icons/arrow-fill-up.svg') no-repeat center 50%;
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -941,10 +941,10 @@ h3.project-title {
   color: #34C9EE;
 }
 .cd-bottom:hover:after {
-  background: transparent url(../components/Icons/arrow-fill-up-hover.svg) no-repeat center 50%;
+  background: transparent url('/components/Icons/arrow-fill-up-hover.svg') no-repeat center 50%;
 }
 .cd-top:hover:after {
-  background: transparent url(../components/Icons/arrow-fill-down-hover.svg) no-repeat center 50%;
+  background: transparent url('/components/Icons/arrow-fill-down-hover.svg') no-repeat center 50%;
 }
 
 /* Tablet to Laptop */
