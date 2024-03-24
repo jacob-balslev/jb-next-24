@@ -1297,7 +1297,7 @@ ATEA, Betalingsservice, Chr. Hansen, DFDS, Digitaliseringstyrelsen, DONG, Fakta,
   </g>
 </svg>
 									</div>
-									<div className="company-logo">
+									<div className="company-logo">test
 										<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 200 154.64">
   
   <g id="tDnRpa.tif">
