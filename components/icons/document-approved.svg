@@ -1,0 +1,6 @@
+<svg xml:space="preserve" class="jbicon document-approved" viewBox="0 0 32 32">
+  <path d="M0 0h32v32H0z" class="icon-frame"/>
+  <path d="M17.3 26.9H6.1V2.5H18l5.3 5v13.4" class="icon-path"/>
+  <path d="M23.3 7.5H18v-5zM8.7 6.9h6.6m-6.6 3.5 12-.2m-12 3.6 12-.1m-12 3.5 12.1-.1m.5 3.3c-2.5 0-4.5 2-4.5 4.5s2 4.5 4.5 4.5 4.5-2 4.5-4.5c.1-2.4-2-4.5-4.5-4.5z" class="icon-path"/>
+  <path d="m23.2 23.7-2.5 2.5-1.1-1.1" class="icon-path"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xml:space="preserve"  xmlns="http://www.w3.org/2000/svg" class="jbicon mobile" viewBox="0 0 32 32">
+<style>
+    path.icon-path {
+      fill: transparent;
+      stroke: maroon;
+      strokeWidth: 2px;
+    }
+    circle.icon-fill {
+      fill: gold;
+      stroke: transparent;
+      strokeWidth: 2px;
+    }
+  </style>
+  <path d="M0 0h32v32H0z" class="icon-frame" stroke="#ff00ff"/>
+  <path stroke="#ff00ff" d="M22.6 29.6H9.4c-.9 0-1.6-.7-1.6-1.6V4.1c0-.9.7-1.6 1.6-1.6h13.1c.9 0 1.6.7 1.6 1.6V28c.1.8-.6 1.6-1.5 1.6z" class="icon-path"/>
+  <circle  fill="#ff00ff" cx="16" cy="27.1" r=".9" class="icon-fill"/>
+  <path  stroke="#ff00ff" d="M7.8 5.9h16.4m0 18.9H7.8" class="icon-path"/>
+</svg>

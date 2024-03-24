@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-aspect-ratio": "^1.1.6",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.1",
+    "react-intersection-observer": "^9.8.1",
+    "react-slugify": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.69",
+    "typescript": "5.4.3"
+  }
+}

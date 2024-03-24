@@ -1,0 +1,65 @@
+:root {
+// Colors
+--color-primary-alpha-red: 12deg, 86%, 52%; // rød
+--color-primary: hsl(var(--color-primary-alpha-red)); // rød: hsl(12deg 86% 42%); blå: #11b5e0;
+$base-color: var(--color-primary);
+--color-primary-alpha-red-dark: 12deg, 86%, 42%; // rød
+--color-primary-dark: hsl(12, 86%, 42%); // mørk rød
+--color-primary-alpha-blue: hsl(192, 86%, 47%);
+--color-primary-alpha-red-darken: darken(var(--color-primary), 20%);
+
+
+  // Greyscale - Add saturation if needed
+  --color-black-05:hsl(190deg 3% 95%);
+  --color-black-10:hsl(190deg 3% 90%);
+  --color-black-15:hsl(190deg 3% 85%);
+  --color-black-20:hsl(190deg 3% 80%);
+  --color-black-25:hsl(190deg 3% 75%);
+  --color-black-30:hsl(190deg 3% 70%);
+  --color-black-35:hsl(190deg 3% 65%);
+  --color-black-40:hsl(190deg 3% 60%);
+  --color-black-45:hsl(190deg 3% 55%);
+  --color-black-50:hsl(190deg 3% 50%);
+  --color-black-55:hsl(190deg 3% 45%);
+  --color-black-60:hsl(190deg 3% 40%);
+  --color-black-65:hsl(190deg 3% 35%);
+  --color-black-70:hsl(190deg 3% 30%);
+  --color-black-75:hsl(190deg 3% 25%);
+  --color-black-80:hsl(190deg 3% 20%);
+  --color-black-85:hsl(190deg 3% 15%);
+  --color-black-90:hsl(190deg 3% 10%);
+  --color-black-95:hsl(190deg 3% 05%);
+
+  --color-grey: hsl(0, 0%, 80%);
+  --color-grey-light: #e6e6e6;
+  --footer-strip-bg: #1c1c1c;
+  --footer-color-grey: #a6a6a6;
+
+  --color-danger: #ff3547;
+  --color-danger-dark: #c00;
+  --color-success: #00c851;
+  --color-success-dark: #007e33;
+  --color-warning: #fb3;
+  --color-warning-dark: #f80;
+  --color-info: #33b5e5;
+  --color-info-dark: #09c;
+
+.color-bg.danger {background-color: var(--color-danger);}
+.color-bg.danger-dark {background-color: var(--color-danger-dark);}
+.color-bg.warning {background-color:var(--color-warning);}
+.color-bg.warning-dark {background-color:var(--color-warning-dark);}
+.color-bg.success {background-color:var(--color-success);}
+.color-bg.success-dark {background-color:var(--color-success-dark);}
+.color-bg.info {background-color:var(--color-info);}
+.color-bg.info-dark {background-color:var(--color-info-dark);}
+
+.color.danger {color: var(--color-danger);}
+.color.danger-dark {color: var(--color-danger-dark);}
+.color.warning {color:var(--color-warning);}
+.color.warning-dark {color:var(--color-warning-dark);}
+.color.success {color:var(--color-success);}
+.color.success-dark {color:var(--color-success-dark);}
+.color.info {color:var(--color-info);}
+.color.info-dark {background-color:var(--color-info-dark);}
+}
+  

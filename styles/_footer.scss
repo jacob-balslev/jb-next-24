@@ -1,0 +1,163 @@
+:root {
+//Footer
+#footer {
+    background-color: var(--color-black-20);
+    padding: 3rem;
+    display: grid;
+    position: relative;
+    bottom: 0px;
+    gap:0.5rem;
+    padding-bottom: 4rem;
+  }
+  //footer-item-icon
+.footer-item-icon .icon-path {
+    stroke: var(--color-black-55);
+    stroke-width: 1.5px;
+    fill:none;
+  }
+  .footer-item-icon-container:hover .footer-item-icon .icon-path {
+    stroke: var(--color-primary);
+}
+.footer-social-icon:hover .icon-fill {
+  fill: var(--color-primary);
+}
+.footer-social-icon:hover .icon-path {
+  stroke: var(--color-primary);
+}
+#footer svg.jbicon.email .icon-path {
+  stroke-width: 1.85px;
+}
+.footer-item-icon-container:hover > .footer-item-icon .email .icon-path:nth-of-type(1), .footer-item-icon-container:hover > .footer-item-icon .location .icon-path, .footer-item-icon-container:hover > .footer-item-icon .mobile .icon-path:nth-of-type(2) {
+  fill:transparent;
+}
+.footer-item-icon-container:hover > .footer-item-icon .email .icon-path:nth-of-type(2), .footer-item-icon-container:hover > .footer-item-icon .mobile .icon-path, .footer-item-icon-container:hover > .footer-item-icon .mobile .icon-path {
+  stroke: var(--color-primary);
+}
+.footer-item-icon-container:hover > .footer-item-icon .mobile .icon-fill {
+  fill: var(--color-primary);
+}
+.footer-item-icon .icon-fill {
+    fill: var(--color-black-55);
+  }
+  // Social
+.footer-social-icon .icon-path {
+    stroke: var(--color-black-55);
+  }
+.footer-social-icon .icon-fill {
+  fill: var(--color-black-55);
+}
+  #footer svg.jbicon {
+    width: 2rem;
+  }
+  .footer-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .footer-item-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.35rem;
+    padding-bottom: 0.25rem;
+  }
+  .footer-item-icon-container .footer-item {
+    font-size: 0.85rem;
+    letter-spacing: 0.1px;
+    line-height: 1.2;
+  }
+  .footer-item-icon {
+    width: 1.5rem;
+    justify-content: center;
+    display: flex;
+  }
+  .footer-grid-row {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .footer-item.link {
+    font-weight: 600;
+}
+  .footer-grid-row:nth-of-type(2) {
+    grid-column: 1 / span 4;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-grid-row:nth-of-type(3) {
+    grid-column: 5 / span 4;
+    display: flex;
+    flex-direction: column;
+  }
+  #footer svg.jbicon.jacobbalslev {
+    width: 120px;
+}
+  .footer-item.footer-logo a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-black-75);
+  }
+  .footer-item {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--color-black-60);
+    padding-bottom: 0.25rem;
+  }
+  #footer svg.jbicon.email {
+    width: 1.25rem;
+    display: flex;
+    align-self: flex-start;
+}
+#footer svg.jbicon.location {
+  width: 1.5rem;
+  display: flex;
+  align-self: flex-start;
+}
+#footer svg.jbicon.mobile {
+  width: 1.5rem;
+  display: flex;
+  align-self: flex-start;
+}
+.footer-social-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  grid-column: 1 / -1;
+}
+.footer-item.footer-logo {
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  grid-column: span 12;
+  grid-row: span 1;
+}
+.footer-logo .icon-fill {
+  fill: var(--color-black-75);
+  stroke: transparent;
+}
+.lucky {
+  position: relative;
+  display: flex;
+  grid-column: span 4;
+  justify-self: end;
+  width: 180px;
+}
+.lucky svg {
+  width: 200px;
+  display: flex;
+  height: auto;
+}
+// Lucky luke
+.skin-grad {
+  stroke: transparent;
+  fill: url(#grad1);
+}
+.skin.fill.stroke{
+  stroke: #000;
+}
+.luke-brown {
+  fill: #69433f;
+}
+// :root stop
+}
